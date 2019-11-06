@@ -7,7 +7,7 @@ const CardPhoto = props => {
             <img src={props.image} alt="Random NASA img"/>
             <div>
                 <p>{props.explanation}</p>
-                <p>{props.date}</p>
+                <h4>Date: {props.date}</h4>
             </div>
         </div>
     )
