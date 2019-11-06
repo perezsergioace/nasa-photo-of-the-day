@@ -19,7 +19,7 @@ function CardHolder() {
     }, []);
 
     return (
-        <div>
+        <div className="nasa_Photo_Container">
             <CardPhoto 
             title={nasaPhoto.title}
             image={nasaPhoto.hdurl}
